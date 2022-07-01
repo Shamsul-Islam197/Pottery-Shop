@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body{
+	margin: auto;
+	background: #171619e0;
+	background-size: 100% 1080px;
+}
+
+.container{
+	width: 1920px;
+	height: 70px;
+	text-align: left;
+	background-color:  rgb(0 0 0 / 76%);
+
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+	margin-bottom: 0px;
+	
+}
+
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.btn-logout{
+    border:0;
+	background: rgb(77, 78, 101);
+	display: block;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding:10px 30px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition: 0.5s;
+	cursor:pointer;
+
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+
+}
+
+.btn-logout:hover{
+    background:#FE6969;
+}
+
+.container1{
+	width: 740px;
+	height: 450px;
+	text-align: left;
+	background-color: rgba(44, 62, 80,0.7);
+	border-radius:24px;
+
+	position: absolute;
+    top: 200px;
+    right: 585px;
+    margin-top: 0px;
+    margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+form{
+	width: 50%;
+	margin: 20px auto;
+}
+
+
+
+.content-table {
+        border-collapse: collapse;
+        margin: auto;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        margin-top: 370px;
+
+
+    }
+
+    input[type="text"]{
+	border:0;
+	background: rgb(44, 62, 80);
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border:2px solid #3498db;
+	padding:14px 10px;
+	width: 200px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition: 0.5s;
+}
+input[type="text"]:focus{
+    width:280px;
+    border-color: #2ecc71;
+}
+.btn-submit[type="submit"]{
+	border:0;
+	background: rgb(77, 78, 101);
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding:8px 20px;
+	outline:none;
+	color:white;
+	border-radius:24px;
+	transition: 0.5s;
+	cursor:pointer;
+}
+
+.btn-submit[type="submit"]:hover{
+    background:#2ecc71;
+}
